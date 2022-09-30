@@ -27,10 +27,10 @@ You need to work on the `Edit Participant` page.
 ​
 
 - Load details of a participant from API (http://localhost:3001/participants/:id) and display it in the form
-- Add Missing fields: `internshipStart`, `internshipEnd` allowing to edit dates
-- Make all fields required (name, email, internshipStart, internshipEnd)
+- Add Missing fields: `workStart`, `workEnd` allowing to edit dates
+- Make all fields required (name, email, workStart, workEnd)
 - Validate if the email is correct
-- Validate if `internshipEnd` date is after `internshipStart` date
+- Validate if `workEnd` date is after `workStart` date
 - Update participant data in `db.json` on form submit using API endpoint (PUT http://localhost:3001/participants/:id)
   ​
 
